@@ -1,0 +1,24 @@
+#include <stdio.h>
+main()
+{
+	int a,b,c,d=0,e[100];
+	printf("Enter The Number of elements you want to enter:");
+	scanf("%d",&a);
+	for(b=0;b<a;b++)
+	{
+		printf("Enter The %d element:",b+1);
+		scanf("%d",&printf("Enter The 1st Subject Marks:");
+	scanf("%d",&a),e[b]);
+	}
+	for(b=0;b<a;b++)
+	{
+		for(c=2;c<e[b];c++)
+		{
+			if(e[b]%c==0)
+			{
+				d+=1;
+			}
+		}
+	}
+	printf("The Number of composites in array is:%d",d);
+}
