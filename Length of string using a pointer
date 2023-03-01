@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+main()
+{
+	char b[20],*a;
+	printf("Enter The String:");
+	scanf("%s",&b);
+	a=b;
+	printf("%d",strlen(a));
+}
